@@ -35,10 +35,10 @@
 (def idc-service-param-true "1")
 
 // set the SSL socket options
-config.setKeystoreFile("keystore/client_keystore");  //location of keystore file
-config.setKeystorePassword ("password");      // keystore password
-config.setKeystoreAlias("SecureClient");  //keystore alias
-config.setKeystoreAliasPassword("password");
+;;;config.setKeystoreFile("keystore/client_keystore");  //location of keystore file
+;;;config.setKeystorePassword ("password");      // keystore password
+;;;config.setKeystoreAlias("SecureClient");  //keystore alias
+;;;config.setKeystoreAliasPassword("password");
 
 ;;;
 ;;; Extracting task name from a CMU bundle
